@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: rgb(217, 237, 237);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.1);
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(226, 46, 43);
+}
+
+.date-section{
+    font-size: 16px;
+    margin-button: 20px;
+    background: rgb(227, 227, 203);
+    text-align: center;
+}
+.date-section input{
+    padding: 2px;
+    font-size: 16px;
+    background: rgb(235, 234, 227);
+}
+ .input-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+ }
+ .input-section input{
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 5px;
+
+
+
+ }
+ .input-section button{
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(122, 122, 230);
+    color: white;
+    cursor: pointer;
+ }
+ .input-section button:hover{
+    background: greenyellow;
+ }
+  /*table */
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  table th, table td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+  }
+  table th{
+    background: rgb(68, 110, 114);
+    color: white;
+  }
+  .absent{
+    color: red;
+    font-weight: bold;
+  }
+    .present{
+    color: rgb(233, 185, 233);
+    font-weight: bold;
+  }
+  .status-btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .absent-btn{
+    background: #cd3a3a;
+    color: white;
+  
+  }
